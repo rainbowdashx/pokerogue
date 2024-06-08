@@ -2,6 +2,7 @@ import { Moves } from "./enums/moves";
 import { Species } from "./enums/species";
 import { allMoves } from "./move";
 import * as Utils from "../utils";
+import {bnkMonEggMoves} from "#app/data/enums/bnkmon/bnkmon";
 
 
 export const speciesEggMoves = {
@@ -572,7 +573,8 @@ export const speciesEggMoves = {
   [Species.HISUI_ZORUA]: [ Moves.MOONBLAST, Moves.AURA_SPHERE, Moves.PARTING_SHOT, Moves.BLOOD_MOON ],
   [Species.PALDEA_TAUROS]: [ Moves.NO_RETREAT, Moves.BLAZING_TORQUE, Moves.AQUA_STEP, Moves.THUNDEROUS_KICK ],
   [Species.PALDEA_WOOPER]: [ Moves.RECOVER, Moves.STONE_AXE, Moves.BANEFUL_BUNKER, Moves.SAPPY_SEED ],
-  [Species.BLOODMOON_URSALUNA]: [ Moves.NASTY_PLOT, Moves.TRICK_ROOM, Moves.THUNDERBOLT, Moves.BOOMBURST ]
+  [Species.BLOODMOON_URSALUNA]: [ Moves.NASTY_PLOT, Moves.TRICK_ROOM, Moves.THUNDERBOLT, Moves.BOOMBURST ],
+  [Species.BNK_MON]: bnkMonEggMoves,
 };
 
 function parseEggMoves(content: string): void {
