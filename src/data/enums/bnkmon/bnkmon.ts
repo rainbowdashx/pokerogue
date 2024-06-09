@@ -14,18 +14,8 @@ type MoveLevelPair = [number, Moves];
 type MoveLevelList = MoveLevelPair[];
 export const bnkMonLevelMoves:MoveLevelList =   [
   [ 1, Moves.TACKLE ],
-  [ 1, Moves.SCREECH ],
-  [ 1, Moves.DEFENSE_CURL ],
-  [ 1, Moves.METRONOME ],
   [ 1, Moves.LICK ],
-  [ 1, Moves.FLAIL ],
-  [ 1, Moves.STOCKPILE ],
   [ 1, Moves.SWALLOW ],
-  [ 1, Moves.RECYCLE ],
-  [ 1, Moves.BLOCK ],
-  [ 1, Moves.COVET ],
-  [ 1, Moves.FLING ],
-  [ 1, Moves.LAST_RESORT ],
   [ 1, Moves.SALT_CURE ],
   [ 1, Moves.ZIPPY_ZAP ],
   [ 1, Moves.THOUSAND_ARROWS ],
