@@ -14,8 +14,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: wait for 5 minutes
-        run: sleep 300
+      - name: wait for 1 minute
+        run: sleep 60
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
