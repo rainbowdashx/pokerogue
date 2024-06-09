@@ -27,6 +27,7 @@ export const bnkMonLevelMoves:MoveLevelList =   [
   [ 1, Moves.FLING ],
   [ 1, Moves.LAST_RESORT ],
   [ 1, Moves.SALT_CURE ],
+  [ 1, Moves.ZIPPY_ZAP ],
   [ 12, Moves.YAWN ],
   [ 16, Moves.BITE ],
   [ 20, Moves.REST ],
