@@ -1,3 +1,5 @@
+// noinspection SpellCheckingInspection
+
 import { Moves } from "../moves";
 import {Species} from "#app/data/enums/species";
 import {Type} from "#app/data/type";
@@ -39,33 +41,58 @@ export const bnkMonLevelMoves:MoveLevelList =   [
 
 
 export function  getBnkMonSpecies (species: typeof PokemonSpecies): PokemonSpecies {
+  const generation = 1;
+  const subLegendary = false;
+  const legendary = false;
+  const mythical = false;
+  const speciesName = "Trbo mon";
+  const type1 = Type.NORMAL;
+  const type2 = null;
+  const height = 3;
+  const weight = 512;
+  const ability1 = Abilities.WONDER_GUARD;
+  const ability2 = Abilities.CUTE_CHARM;
+  const abilityHidden = Abilities.SUPER_LUCK;
+  const baseTotal = 405;
+  const baseHp = 210;
+  const baseAtk = 150;
+  const baseDef = 80;
+  const baseSpatk = 65;
+  const baseSpdef = 80;
+  const baseSpd = 144;
+  const catchRate = 20;
+  const baseFriendship = 50;
+  const baseExp = 320;
+  const growthRate = GrowthRate.ERRATIC;
+  const malePercent = 87.5;
+  const genderDiffs = false;
 
   return new  species(Species.BNK_MON,
-    1,
-    false,
-    false,
-    false,
-    "Trbo mon",
-    Type.NORMAL,
-    null,
-    3,
-    512,
-    Abilities.WONDER_GUARD,
-    Abilities.CUTE_CHARM,
-    Abilities.SUPER_LUCK,
-    405,
-    210,
-    150,
-    80,
-    65,
-    80,
-    144,
-    20,
-    50,
-    320,
-    GrowthRate.ERRATIC,
-    87.5,
-    false);
+    generation,
+    subLegendary,
+    legendary,
+    mythical,
+    speciesName,
+    type1,
+    type2,
+    height,
+    weight,
+    ability1,
+    ability2,
+    abilityHidden,
+    baseTotal,
+    baseHp,
+    baseAtk,
+    baseDef,
+    baseSpatk,
+    baseSpdef,
+    baseSpd,
+    catchRate,
+    baseFriendship,
+    baseExp,
+    growthRate,
+    malePercent,
+    genderDiffs);
 }
 export const bnkMonStarterAbilities = Abilities.LIQUID_VOICE;
 
