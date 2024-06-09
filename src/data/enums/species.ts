@@ -2164,6 +2164,7 @@ export enum Species {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pokémon) | Source} */
   BLOODMOON_URSALUNA = 8901,
   BNK_MON = 12001,
+  YOLOPHANT = 12002,
 }
 
 export const defaultStarterSpecies: Species[] = [
@@ -2175,5 +2176,5 @@ export const defaultStarterSpecies: Species[] = [
   Species.CHESPIN, Species.FENNEKIN, Species.FROAKIE,
   Species.ROWLET, Species.LITTEN, Species.POPPLIO,
   Species.GROOKEY, Species.SCORBUNNY, Species.SOBBLE,
-  Species.SPRIGATITO, Species.FUECOCO, Species.QUAXLY,Species.BNK_MON
+  Species.SPRIGATITO, Species.FUECOCO, Species.QUAXLY,Species.BNK_MON, Species.YOLOPHANT
 ];

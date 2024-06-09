@@ -7841,6 +7841,27 @@
 						"w": 40,
 						"h": 30
 					}
+				},
+				{
+					"filename": "12002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 16,
+						"h": 13
+					},
+					"frame": {
+						"x": 34,
+						"y": 790,
+						"w": 32,
+						"h": 23
+					}
 				}
 			]
 		}

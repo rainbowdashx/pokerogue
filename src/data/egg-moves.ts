@@ -3,6 +3,7 @@ import { Species } from "./enums/species";
 import { allMoves } from "./move";
 import * as Utils from "../utils";
 import {bnkMonEggMoves} from "#app/data/enums/bnkmon/bnkmon";
+import {yoloMonEggMoves} from "#app/data/enums/bnkmon/yolomon";
 
 
 export const speciesEggMoves = {
@@ -575,6 +576,7 @@ export const speciesEggMoves = {
   [Species.PALDEA_WOOPER]: [ Moves.RECOVER, Moves.STONE_AXE, Moves.BANEFUL_BUNKER, Moves.SAPPY_SEED ],
   [Species.BLOODMOON_URSALUNA]: [ Moves.NASTY_PLOT, Moves.TRICK_ROOM, Moves.THUNDERBOLT, Moves.BOOMBURST ],
   [Species.BNK_MON]: bnkMonEggMoves,
+  [Species.YOLOPHANT] : yoloMonEggMoves,
 };
 
 function parseEggMoves(content: string): void {

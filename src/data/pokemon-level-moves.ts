@@ -1,6 +1,7 @@
 import { Moves } from "./enums/moves";
 import { Species } from "./enums/species";
 import {bnkMonLevelMoves} from "#app/data/enums/bnkmon/bnkmon";
+import {yoloMonLevelMoves} from "#app/data/enums/bnkmon/yolomon";
 
 export type LevelMoves = ([integer, Moves])[];
 
@@ -18,6 +19,7 @@ interface PokemonSpeciesFormLevelMoves {
 
 export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   [Species.BNK_MON]: bnkMonLevelMoves,
+  [Species.YOLOPHANT]: yoloMonLevelMoves,
   [Species.BULBASAUR]: [
     [ 1, Moves.TACKLE ],
     [ 1, Moves.GROWL ],
